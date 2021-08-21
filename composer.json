@@ -14,7 +14,8 @@
     }
   ],
   "require": {
-    "pantheon-upstreams/upstream-config": "*"
+    "pantheon-upstreams/upstream-config": "*",
+    "roots/multisite-url-fixer": "^1.1"
   },
   "config": {
     "vendor-dir": "vendor",
