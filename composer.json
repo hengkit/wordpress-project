@@ -52,8 +52,7 @@
     ],
     "post-install-cmd": [
       "@cleanup",
-      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-      "wp core multisite-convert"
+      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
     ],
     "post-update-cmd": [
       "@cleanup",
